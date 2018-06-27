@@ -264,7 +264,12 @@ public class ZookeeperRegistryCenter implements RegistryCenter {
     }
 
     @Override
-    public Object getRawCache(final String cachePath) {
+    public Object getCache(final String cachePath) {
         return caches.get(cachePath + "/");
+    }
+
+    @Override
+    public Object getRawClient() {
+        return this.client;
     }
 }
