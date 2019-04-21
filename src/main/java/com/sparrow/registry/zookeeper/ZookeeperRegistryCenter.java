@@ -1,7 +1,7 @@
 package com.sparrow.registry.zookeeper;
 
 import com.google.common.base.Preconditions;
-import com.sparrow.constant.CONSTANT;
+import com.sparrow.protocol.constant.CONSTANT;
 import com.sparrow.registry.RegistryCenter;
 import com.sparrow.utility.StringUtility;
 import org.apache.curator.framework.CuratorFramework;
